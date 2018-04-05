@@ -1,0 +1,42 @@
+$blue-color: #2F80ED
+.page-container
+    max-width: 800px
+    min-height: 90vh
+    padding: 45px
+    margin: 0 auto
+    float: none
+    img  
+        height: auto
+        width: 100%
+
+.location-content
+    display: flex
+    width: 100%
+.location-content-container
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-flow: column
+    padding: 45px
+    &:first-of-type
+        width: 65vw
+        background-color: $blue-color
+        color: white
+        font-size: 3em
+    &:nth-of-type(2)
+        width: 35vw
+    ul  
+        list-style: none
+        margin: 0
+        padding: 0
+        width: 100%
+@media only screen and (max-width: 1024px)
+    .location-content
+        flex-flow: column
+    .location-content-container
+        padding: 15px
+        &:first-of-type, &:nth-of-type(2)
+            width: 100%
+    
+        
+

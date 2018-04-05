@@ -1,0 +1,25 @@
+html, body
+  margin: 0
+  padding: 0
+
+button
+  cursor: pointer
+  border: none
+  -webkit-appearance: none
+  :focus
+    outline: none
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
+.main
+  display: flex
+.main, section
+  position: relative
+  width: 100%
+  display: flex
+  flex-flow: column

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700")
+
+$lora-font: Lora
+$blue-color: #2F80ED
+
+.logos-container 
+    margin: 0 auto 
+    float: left
+    width: 100%
+    padding: 90px 0
+
+    .line-break
+        width: 120px
+        border-bottom: 1px solid $blue-color
+        margin: 30px auto
+
+    h3 
+        text-align: center
+        font-size: 1.5em
+
+    p  
+        max-width: 768px
+        margin: 0 auto
+
+    .logo-section 
+        max-width: 768px
+        margin: 0 auto
+        padding: 30px 0
+        a  
+            padding: 15px
+            color: white
+
+@media only screen and (max-width: 768px)
+    .logos-container 
+        padding: 0 30px 0 30px
+    .logo-section
+        a  
+            width: calc(50% - 30px)
+            display: inline-block
+            float: left
+        img     
+            height: auto
+            width: 100%

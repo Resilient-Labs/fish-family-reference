@@ -1,0 +1,44 @@
+footer
+    float: left
+    padding: 45px
+    width: 100%
+    background-color: #2F80ED
+    nav
+        color: white
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 100%
+        .brand
+            color: white
+            text-decoration: none
+            font-size: 1.25em
+        ul
+            margin: 0
+            padding: 0
+            li
+                float: left
+                list-style-type: none
+                margin-right: 20px
+    a
+        text-decoration: none
+        color: white
+        &:hover 
+            color: #ede
+.footnote
+    color: #2F80ED
+    float: left
+    padding: 15px
+    text-align: center
+    width: 100%
+.resilient-coders
+    color: #2F80ED
+    text-decoration: none
+    &:hover 
+        color: #ed1b24
+
+@media only screen and (max-width: 769px)
+    footer
+        padding: 30px 15px
+        nav  
+            flex-flow: column
